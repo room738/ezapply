@@ -1,1 +1,1 @@
-This is the website found at <a href="ezapply.xyz">ezapply.xyz</a>.
+This is the website found at <a href="https://room738.xyz/ezapply/">ezapply.xyz</a> 🐤
