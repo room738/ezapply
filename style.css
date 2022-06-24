@@ -116,6 +116,23 @@ h1{
     background-color:#ad3121;
 }
 
+/* no space btwn buttons when they wrap */
+@media only screen and (max-width: 593px){
+    #ff{
+        margin: 0;
+    }
+}
+
+/* no download button on mobile*/
+@media only screen and (max-width: 480px) {
+    #ch{
+        display: none;
+    }
+    #ff{
+        display: none;
+    }
+}
+
 #more:hover{
     background-color:#1f6da1;
 }
