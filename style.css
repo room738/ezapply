@@ -105,11 +105,12 @@ h1{
 }
 
 #ch:hover{
-    background-color: #30bf58;
+    background-color: #498447;
 }
 
 #ff:hover{
     background-color:#ad3121;
+    margin: 0 1em;
 }
 
 
