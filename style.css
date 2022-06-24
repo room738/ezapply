@@ -108,11 +108,13 @@ h1{
     background-color: #498447;
 }
 
-#ff:hover{
-    background-color:#ad3121;
+#ff{
     margin: 0 1em;
 }
 
+#ff:hover{
+    background-color:#ad3121;
+}
 
 #more:hover{
     background-color:#1f6da1;
