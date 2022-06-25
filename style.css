@@ -6,6 +6,10 @@ html {
     width: auto;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     display:flex;
     align-items: center;
@@ -140,7 +144,7 @@ h2 {
 #more:hover{
     background-color:#1f6da1;
 }
-
+/* 
 #text-parent {
     font-size: 1.25em;
     font-family: Arial;
@@ -149,7 +153,28 @@ h2 {
     align-items: center;
     justify-content: center;
     height: 97vh;
-    overflow: hide;
     margin: 0 10em;
+    padding: 4px;
+} */
+/* 
+@media screen and (max-width: 687px){
+    h2{
+        margin-top: 6em;
+    }
 }
 
+@media screen and (max-width: 845px){
+    .room-tag{
+       position: relative;
+    }
+}
+
+#blurb {
+    padding: 0em 7em 0em;
+}
+
+@media screen and (max-width: 1200px) {
+    #blurb {
+        padding: 0;
+    }
+} */
