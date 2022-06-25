@@ -13,16 +13,9 @@ function main() {
     // is user itialized? is the page valid?
     if(utils.isInit() && parse.isPageValid()) {
 
-        // pull out page details that need filling
-        pageDetails = await autofill.main()
+        // parse the page and fill with user data
+        pageDetails = await autofill.main() 
         
-        // use page_details to request data for fill
-        // autofillPayload = await data.getUserValues(cols=pageDetails) 
-        autofillPayload = data.user;
-        
-        // execute filling
-        state = autofill.autofill(autofillPayload)
-
         // point to what is unfinished
         panel.handleAfter(state[0])
         options.handleAfter(state[0])
