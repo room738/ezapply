@@ -17,12 +17,16 @@ body {
     flex-flow: column;
 }
 
+.div1{
+    min-width: 153px;
+}
+
 #grid-parent {
     display:flex;
     align-items: center;
     justify-content: center;
     height: 97vh;
-    overflow: hide;
+    width: auto;
 }
 
 h1, h2{
@@ -144,37 +148,9 @@ h2 {
 #more:hover{
     background-color:#1f6da1;
 }
-/* 
-#text-parent {
-    font-size: 1.25em;
-    font-family: Arial;
-    display:flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    height: 97vh;
-    margin: 0 10em;
-    padding: 4px;
-} */
-/* 
-@media screen and (max-width: 687px){
-    h2{
-        margin-top: 6em;
-    }
-}
 
-@media screen and (max-width: 845px){
-    .room-tag{
-       position: relative;
-    }
+#blurb{
+    display: none;
+    margin: 0 0 2.25em 0em;
+    max-width: 800px;
 }
-
-#blurb {
-    padding: 0em 7em 0em;
-}
-
-@media screen and (max-width: 1200px) {
-    #blurb {
-        padding: 0;
-    }
-} */
