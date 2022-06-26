@@ -157,4 +157,16 @@ h2 {
     display: none;
     margin: 0 0 2.25em 0em;
     max-width: 800px;
+    transition: display 1s ease-in;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
 }
