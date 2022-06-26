@@ -110,3 +110,29 @@
   // "background": {
   //   // "service_worker": "background.js"
   // },
+
+
+// labels = document.getElementsByClassName("label")
+
+// textboxes.forEach((t)=>{
+//     link = t.attributes.for.nodeValue;
+//     // find label for node
+// })
+
+// textboxes = document.getElementsByTagName("input")
+
+// docs = document.forms
+// if (docs.length > 0) {
+//     docs.forEach{
+//         // find label meaning
+//         // match with your info
+//         // store cache and tell me whats left
+//     }
+}
+
+        // use page_details to request data for fill
+        // autofillPayload = await data.getUserValues(cols=pageDetails) 
+        // autofillPayload = data.user;
+        
+        // execute filling
+        // state = autofill.autofill(autofillPayload)

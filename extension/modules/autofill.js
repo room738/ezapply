@@ -1,23 +1,32 @@
+import * as data from './data.js' // make this smaller
+
 /* Takes in an identifier from the page and returns a key in the datastore, 
 for filling from an exaustive search method */
-const outerSearch = (identifier) => {
-
+const outerSearch = identifier => {
+    // go though all nodes
+    // check if amy tags matches identifier
+    // if so, return data.user[identifier]
 }
 
-const similarity = (texta, textb) => {
+/* Uses _____ to score the similarity between two strings*/
+const similarity = texta, textb => {
     const comp = 0 // 0->1
+    // something
     return comp
 }
 
 /* Takes in an identifier from the page and returns a key in the datastore */
-const match = (identifier) => {
+const match = identifier => {
     /* 
-    for 
-    
-    
+    for key in data.user_categories_mapping:
+        if similarity(key, identifier) > 0.75:
+            for match in data.user_categories_mapping[key]:
+                if similarity(match, identifier) > 0.95:
+                    return data.user[key];
     */
 
     // use regex to regularizer the identifier and check against a set of common perms
+    // find things that dont match on the loop above, no empty boxes!!
     const ret = ""
     if(ret = "") (
         outerSearch(identifier)
@@ -43,20 +52,4 @@ textboxes.forEach(box => {
 // deal with links in greenhouse use .click on a div link to open selector
 // next give value
 
-labels = document.getElementsByClassName("label")
-
-textboxes.forEach((t)=>{
-    link = t.attributes.for.nodeValue;
-    // find label for node
-})
-
-textboxes = document.getElementsByTagName("input")
-
-docs = document.forms
-if (docs.length > 0) {
-    docs.forEach{
-        // find label meaning
-        // match with your info
-        // store cache and tell me whats left
-    }
-}
+const main

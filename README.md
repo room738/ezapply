@@ -1,30 +1,23 @@
-# ezapply: one-click job applications
+# ezapply: autofill every job app
 
 Click here:
 🔗 [ezapply.xyz](https://ezapply.xyz)
 
-## "what is this?"
+## what is this?
 - it's a browser extension that fills out your job applications for you
 - it leverages machine learning to learn how you answer standardized qustions
 
 - /extension/   -> Chrome Extension
 - /ezapply.xyz/ -> Website
 
-## "why do I need it?"
+## why do you want it?
 - doing job applications is the worst
 - most of it could probably be automatic
 
-## "so true. how do i get it?"
+## how do you get it?
+- good question
 - first, you'll need to install the extension for <a>chrome</a> or <a>firefox</a>
 - you'll also log into ezapply with a github account
-
-## "how much is it?"
-
-it's free for the first 5000 applications!
-
-## "how do i say it?"
-
-"easy apply"
 
 ## "how does it work?"
 
