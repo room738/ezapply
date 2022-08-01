@@ -52,4 +52,11 @@ textboxes.forEach(box => {
 // deal with links in greenhouse use .click on a div link to open selector
 // next give value
 
-const main
+// return a Promise pls :)
+export const main = () => {
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(10);
+        }, 3 * 100);
+    });
+}
